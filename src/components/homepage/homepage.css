@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* General styles remain the same */
+
+.nav {
+ 
+  display: flex;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  font-family: "Poppins", sans-serif;
+}
+
+.dropdown-container {
+  margin-left: auto;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size:x-large;
+}
+
+.add {
+  margin-right: 5px;
+  margin-top: 1px;
+  margin-left: 15px;
+}
+
+.create-button {
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: auto;
+  width: 95px;
+  height: fit-content;
+  padding: 10px;
+  padding-top: 12px;
+  background-color: #D33852;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  font-size: medium;
+  display: flex;
+}
+
+.dropdown-content {
+  font-size: medium;
+  font-weight: 400;
+  padding: 20px;
+  width: 250px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 3px 3px rgb(212, 230, 225);
+}
+
+.dropdown-option {
+  display: flex;
+  padding: 5px;
+  cursor: pointer;
+  margin-top: 2px;
+  border-radius: 8px;
+}
+
+.dropdown-option:hover {
+  background-color: rgb(220, 236, 231);
+  font-weight: 500;
+}
+
+.center-image {
+  text-align: center;
+  margin-top: 25vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.options-image {
+  margin-right: 5px;
+  padding: 0;
+}
+
+.modal {
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  z-index: 999; 
+}
+
+.modal-content {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  padding: 20px; 
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  text-align: left;
+  max-width: 450px; 
+  width: 100%; 
+  margin: 0 auto; 
+}
+
+.close-btn:hover {
+  background-color: #999;
+}
+
+.functions {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-module {
+  margin-right: 10px;
+}
+
+.input-module input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 400px;
+}
+
+.create-buttn {
+  margin-top: 10px;
+  background-color: #28a5a7;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: solid #28a5a7 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: fit-content; 
+}
+
+.cancel-button {
+  margin-top: 10px;
+  width: fit-content;
+  background-color: #ffffff;
+  color: rgb(78, 76, 76);
+  border: solid white 1px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-button {
+  margin-top: 10px;
+  background-color: #ccc;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.close-btn:hover {
+  background-color: #999;
+}
+
+.buttons {
+  width: fit-content;
+  margin-top: 10px;
+  display: flex;
+  margin-left: auto;
+}
+
+.modal-title {
+  display: flex;
+}
+
+.close {
+  margin-left: auto;
+  height: 35px;
+  cursor: pointer;
+}
+
+.modules-container {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 7vh;
+}
+
+.module-item {
+  position: relative; /* Ensure relative positioning for dropdown-menu */
+  display: flex;
+  font-weight: 500;
+  font-size: large;
+  border: solid rgb(229, 226, 226) 1px;
+  padding: 12px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 1px rgb(191, 189, 189);
+}
+
+.burger-button {
+  margin-left: auto;
+  cursor: pointer; /* Ensure cursor changes on hover */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 5px); /* Position below the module-item */
+  right: 0; /* Align to the right end of the module-item */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  border-radius: 7px;
+}
+
+.dropdown-option {
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 400;
+  color: grey;
+  font-size: medium;
+}
+
+
